@@ -1,0 +1,5 @@
+node_modules/
+game/
+yarn-error.log
+yarn.lock
+build/

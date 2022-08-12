@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "rootDir": "src",
+    "outDir": "game",
+    "types": [
+      "lua-types/jit",
+      "love-typescript-definitions",
+      "typescript-to-lua/language-extensions"
+    ],
+    "downlevelIteration": true
+  },
+  "tstl": {
+    "luaLibImport": "require",
+    "luaTarget": "JIT",
+    "noImplicitSelf": true,
+    "sourceMapTraceback": true,
+    "noHeader": true
+  }
+}
